@@ -19,6 +19,7 @@ namespace CS_DZ_Mass_4
             {
                 Console.Write("Введите числa которые нужно сложить , sum или exit: ");
                 string userInput = Console.ReadLine();
+
                 if (userInput.ToLower() == "sum")
                 {
                     int arraySum = 0;
